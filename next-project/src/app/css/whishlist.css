@@ -1,0 +1,64 @@
+
+#whilisth{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    margin-left:0.3em;
+    color:rgb(15, 15, 15);
+    font-size:2em;
+    margin-top: 1.8em;
+   
+}
+
+#header_w{
+    display:grid;
+    border-bottom:0.16em solid #ccc;
+    align-items:center;
+    background-color:rgb(0, 0, 0);
+    min-width:320px;
+    box-sizing:border-box;
+    flex-flow:row;
+    grid-auto-columns:auto;
+    grid-auto-flow:column;
+    grid-template-rows:5em;
+    box-sizing: border-box;
+}
+#home_w{
+    display:grid;
+    background:none;
+    border:none;
+    font-size:1.5em;
+    color:white;
+    justify-self:right;
+
+
+
+}
+#n_p_w{
+    display: grid;
+    margin:auto;
+    margin-top:2em;
+}
+#n_p_t_w{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color:#8d8989;
+    font-size:1.8em;
+}
+#techno_wish{
+    width: 100%;
+    height:100%;
+    max-width: 100%;
+    max-height:100% ;
+}

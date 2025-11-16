@@ -1,0 +1,189 @@
+#bodyc_t{
+    display:grid;
+    width:100%;
+    height:100%;
+    max-height:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    min-width:320px;
+
+
+}
+#sampleimg_div{
+    display:grid;
+    margin:1.5em;
+    justify-items:center;
+
+}
+#sampleimg{
+    width:100%;
+
+}
+#mainc_t{
+    display:grid;
+    grid-auto-rows:auto;
+    grid-template-columns:100%;
+    grid-auto-flow:row;
+    max-width: 100%;
+    max-height:100%;
+    margin-top:1em;
+    width:100%;
+    box-sizing:border-box;
+    justify-content:center;
+    justify-items:center;
+    align-items:center;
+    min-width:320px;
+}
+
+#maindiv_2_t{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(40em,1fr));
+    justify-items:center;
+    justify-content:center;
+    grid-template-rows:1fr;
+    max-width:100%;
+    width:100%;
+   
+} 
+#prosconsdiv_t{
+    display:grid;
+    justify-items:center;
+    justify-content:left;
+    grid-template-columns:0.8fr;
+    padding:2em;
+    box-sizing:border-box;
+}
+#samplevideo_div{
+    display:grid;
+    margin:1.5em;
+    justify-items:center;
+}
+
+#samplevideo{
+    width:100%;
+}
+
+#mainimgdiv_t{
+    display:grid;
+    max-width:100%;
+    justify-content: center;
+    width:100%;
+    box-sizing: border-box;
+    margin:auto;
+    justify-items:center;
+    align-items:center;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    padding:1em;
+}
+#mainimg_t{
+    display:inline;
+    margin-top:1em;
+    width:100%;
+    max-width:100%;
+    object-fit:contain;
+    margin:auto;
+    background-color:transparent;
+
+}
+#discriptiondiv_t{
+    display:grid;
+    grid-template-columns:100%;
+    grid-auto-rows:auto;
+    grid-auto-flow:row;
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    padding:1em;
+    padding-top:0.5em;
+
+}
+#discription_t{
+    font-size:1.7em;
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    text-align:left;
+    word-wrap: break-word;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color: #5d5d5d;
+    box-sizing:border-box;
+}
+#price_div_t{
+    display: inline;
+    font-size:1.7em;
+    width:100%;
+    box-sizing:border-box;
+    text-align:left;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color: #5d5d5d;
+}
+#btnc1_t{
+    display:grid;
+    width:fit-content;
+    font-size:1.6em;
+    float:left;
+    border: none;
+    margin:0.5em;
+    margin-left:0em;
+    background:none;
+    padding: auto;
+    padding-top:0.2em;
+    padding-bottom:0%;
+    box-sizing:border-box;
+}
+#commentbox_div_t{
+    display:grid;
+    grid-auto-columns:auto;
+    grid-auto-flow:column;
+    width:fit-content;
+    grid-template-rows:0.1fr;
+    margin-left:0.5em;
+}
+#commentbox_t{
+    width:100%;
+    font-size:1.3em;
+    border:0.15em solid #ccc;
+    border-radius:0.15em;
+    max-height:100%;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    box-sizing:border-box;
+    text-justify:center;
+    text-align:justify;
+    padding-top:0.5em;
+        
+} 
+@media screen and (max-width:800px) {
+    #maindiv_2_t{
+        display:grid;
+        grid-template-columns:1fr;
+        justify-items:center;
+        justify-content:center;
+        grid-template-rows:auto auto;
+        
+
+    }
+    #prosconsdiv_t{
+        display:grid;
+        justify-items:center;
+        justify-content:left;
+        grid-template-columns:1fr;
+        padding:1em;
+        box-sizing:border-box;
+    }
+}

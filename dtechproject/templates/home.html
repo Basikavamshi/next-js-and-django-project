@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'home.css'%}">
+</head>
+<body>
+    <h1 class='h1'>post details</h1>
+    <form action="" method="post">{% csrf_token %}
+        <input type="text" placeholder="user" name='username'>
+        <input type="text" placeholder="feedback" name='text'>
+        <button type="submit">button</button>
+        
+        
+            
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,193 @@
+#mainlog{
+    display:grid;
+    justify-content: center;
+    text-align:center;
+    min-width:320px;
+    grid-template-rows:0.1fr 1fr;
+    grid-template-columns:1fr;
+    width:100%;
+    grid-row-gap:1em;
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#sub_main_log_div{
+    display:grid;
+    min-width:320px;
+    grid-template-columns:0.5fr 0.5fr;
+    grid-template-rows:1fr;
+    justify-content:center;
+    align-items:center;
+    justify-self:center;
+}
+#sub_main_log_div_2{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    min-width:300px;
+    grid-auto-rows:min-content;
+    grid-template-columns:1fr;
+    width:100%;
+    justify-items:center;
+}
+#headertxt{
+    font-size:2em;
+    color:#1e2893;
+    font-weight:650;
+}
+#sub_header_div_L{
+    display:grid;
+    justify-content:center;
+    justify-items:center;
+    width:100%;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+    align-items:center;
+}
+#inputlog{
+    border:0.35vmin solid black;
+    width:auto;
+    font-size:1.5em;
+
+}
+#labellog{
+    display:inline-block;
+    width:fit-content;
+    height:auto;
+    font-size:1.7em;
+    
+}
+#error_div{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+}
+#password_forgetten_div{
+    display:grid;
+    justify-items:center;
+    align-items:center;
+}
+#passwordf{
+    color: red;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-size:1.5em;
+}
+#singuptxt{
+   font-family: 'Bodoni Moda', serif;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   font-family: 'Chakra Petch', sans-serif;
+   font-family: 'Handjet', cursive;
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-family: 'Roboto Slab', serif;
+   font-size:1.5em;
+    
+}
+#home{
+    border: 0px;
+    background: none;
+    color: aliceblue;
+    
+    margin-right: 5%;
+}
+
+#form_submit_btn{
+    position: relative;
+    width:8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    overflow:visible;
+    box-sizing:border-box;
+    padding:0.4em;
+    background-color:transparent;
+    margin:auto;
+    font-size:1.1em;
+    color: white;
+    
+}
+#form_submit_btn::before{
+    content:'';
+    inset:0;
+    position:absolute;
+    background-color:#161616;
+    clip-path: polygon(calc(30% - 1.2em) 0%, 70% 0%, 100% 0, 100% 70%, calc(70% + 1.2em) 100%, 0 100%, 0% 70%, 0% 30%);
+    z-index:-1;
+    background-color:black;
+}
+#form_submit_btn::after{
+    content:'';
+    inset:0;
+    position:absolute;
+    background-color:#131313;
+    clip-path: polygon(calc(30% - 0.9em) 0%, 100% 0%, 100% 65%, calc(70% + 0.9em) 100%, 0 100%, 0% 70%, 0% 35%);
+    z-index:-1;
+}
+#form_submit_btn::before,
+#form_submit_btn::after {
+  border: 0.15em solid #191818;
+  box-sizing: border-box;
+  z-index:-1;
+}
+
+
+#form_div_l{
+    display:grid;
+    margin:auto;
+    grid-template-columns:1fr;
+    grid-auto-rows:1fr;
+    grid-auto-flow:row;
+    justify-items:left;
+    grid-gap:1em;
+
+}
+#formdiv_l{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-auto-rows:auto;
+    grid-auto-flow:row;
+    justify-items:center;
+    width: 100%;
+    grid-gap:1em;
+}
+
+#error{
+   color:rgb(60, 60, 106);
+   margin-bottom:1.5em;
+   font-size:1.4em;
+   font-family: 'Bodoni Moda', serif;
+   font-family: 'Bricolage Grotesque', sans-serif;
+   font-family: 'Chakra Petch', sans-serif;
+   font-family: 'Handjet', cursive;
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-family: 'Roboto Slab', serif;
+}
+
+#techno_mobile_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    min-width:470px;
+
+}
+@media screen and (max-width: 800px){
+    #sub_main_log_div_1{
+        display:none;
+    }
+    #sub_main_log_div{
+        display:grid;
+        grid-template-columns:1fr;
+        align-items:normal;
+    }
+    
+}

@@ -1,0 +1,139 @@
+#main_divf{
+    display:grid;
+    height:100%;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+    grid-auto-rows:auto;
+    grid-auto-flow:row;
+    grid-row-gap:1.5em;
+
+    
+}
+#sub_div_F{
+    display: grid;
+    width: 100%;
+    height:100%;
+    grid-template-columns:1fr;
+    justify-items:left;
+    justify-content:left;
+
+}
+#sub_divf{
+    display:grid;
+    width:100%;
+    height:100%;
+    max-width:100%;
+    max-height:100%;
+    justify-items:right;
+    justify-content:right;
+    grid-template-columns:0.95fr;
+
+}
+
+#feedbackinput{
+    margin:auto;
+    font-size:1.5em;
+    width:100%;
+    height:5em;
+    border:0.09em solid black;
+    text-align:top;
+    border-radius:0.2em;
+    box-sizing: border-box;
+}
+#submitbtn{
+    width: max-content;
+    margin-top:1em;
+    font-size:1.3em;
+    border-radius:0.5em;
+}
+#header_div_f{
+    display:grid;
+    justify-items:left;
+    width:100%;
+    height:100%;
+
+}
+#div_para_f{
+    display:grid;
+    width: 100%;
+    height:100%;
+    max-width:100%;
+
+}
+#child_divf{
+    display:grid;
+    position:relative;
+    justify-items:center;
+    width:100%;
+    height:100%;
+    max-width:100%;
+    max-height:100%;
+    box-sizing:border-box;
+}
+
+#feedback_header{
+    font-size:1.5em;
+    margin:0.5em;
+    margin-left:0.5em;
+    margin-left:0em;
+    font-family:cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(124, 125, 125);
+}
+#para_f_1{
+    font-size:1.3em;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+
+}
+#para_f_2{
+    font-size:1.4em;
+    font-family:cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#para_f_3{
+    font-size:1.3em;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+#submit_btn_f{
+    display:grid;
+    background:transparent;
+    position:absolute;
+    bottom:3%;
+    right:1%;
+    justify-content:center;
+    justify-items:center;
+    grid-template-columns:0.5fr;
+    grid-template-rows:1fr;
+    font-size:1.5em;
+    color: skyblue;
+    box-sizing: border-box;
+    border-radius:100em;
+    border:0.01em solid rgb(34, 183, 241);
+    box-shadow:0.1em 0.1em 1em 0.1em #ccc;
+    width:1.8em;
+    height: 1.8em;
+    z-index:4;
+    background-color:rgb(34, 183, 241);
+}
+#send_icon{
+    display:grid;
+    justify-self:center;
+    align-self:center;
+    margin-left:0.2em;
+    color:whitesmoke;
+}

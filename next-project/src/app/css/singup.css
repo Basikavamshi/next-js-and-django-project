@@ -1,0 +1,164 @@
+#body_sin{
+    display:grid;
+    grid-template-rows:auto 1fr;
+    grid-template-columns:1fr;
+    grid-row-gap:2em;
+    height:100vh;
+    min-width:320px;
+}
+#main_div_sin_2{
+    display:grid;
+    grid-template-columns:1.9fr 1fr;
+    grid-template-rows:1fr;
+    justify-self:center;
+    justify-content:center;
+    align-items:center;
+    justify-items:center;
+    align-self:center;
+    grid-gap:1.5em;
+}
+#mainsin{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto auto;
+    box-sizing:border-box;
+    justify-content:center;
+    justify-items:center;
+    width:100%;
+
+
+}
+#headersin{
+    font-size:2em;
+    color:rgb(116, 115, 115);
+    margin-bottom: 5%;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    margin:auto;
+}
+#inputsin{
+    font-size:2em;
+    border:0.35vmin solid black;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+
+}
+#inputsin:hover{
+    border-color: rgb(16, 71, 199);
+}
+#labelsin{
+    font-size:1.8em;
+    
+    color: rgb(25, 82, 133);
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+
+    
+}
+#formsin{
+    display:grid;
+    justify-content: center;
+    text-align:center;
+    margin:1em;
+
+
+}
+#formdiv{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-auto-rows:auto;
+    grid-auto-flow:row;
+    justify-items:left;
+}
+
+
+#loginlink{
+    font-size:1.6em;
+    margin: auto;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom:1.5em;
+}
+#error{
+    color:rgb(246, 2, 2);
+    margin-top:1em;
+    font-size:1.1em;
+}
+
+#singupbtn{
+    position: relative;
+    width:8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    overflow:visible;
+    box-sizing:border-box;
+    padding:0.4em;
+    background-color:transparent;
+    margin:auto;
+    font-size:1.1em;
+    color: rgb(21, 19, 19);
+    margin-top:1em;
+    
+}
+#singupbtn::before{
+    content:'';
+    inset:0;
+    position:absolute;
+    background-color:#161616;
+    clip-path: polygon(calc(30% - 1.2em) 0%, 70% 0%, 100% 0, 100% 70%, calc(70% + 1.2em) 100%, 0 100%, 0% 70%, 0% 30%);
+    z-index:-1;
+    background-color:black;
+}
+#singupbtn::after{
+    content:'';
+    inset:0;
+    position:absolute;
+    background-color:white;
+    clip-path: polygon(calc(30% - 0.9em) 0%, 100% 0%, 100% 65%, calc(70% + 0.9em) 100%, 0 100%, 0% 70%, 0% 35%);
+    z-index:-1;
+}
+#singupbtn::before,
+#singupbtn::after {
+  border: 0.15em solid #ccc;
+  box-sizing: border-box;
+  z-index:-1;
+}
+#techno_sing_img{
+    width:100%;
+    max-width:420px;
+    
+
+}
+@media screen and (max-width: 800px){
+    #techno_sing_div{
+        display: none;
+    }
+    #main_div_sin_2{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+}
